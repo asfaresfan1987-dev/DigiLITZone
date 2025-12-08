@@ -1,70 +1,104 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DigiLITZone - SMP Negeri 1 Bunguran Barat</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f7f7f7;
-    }
-    header {
-      background: #4CAF50;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 22px;
-      font-weight: bold;
-    }
-    .container {
-      padding: 15px;
-    }
-    .menu {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .menu a {
-      text-decoration: none;
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      font-size: 18px;
-      color: #333;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-      font-weight: bold;
-      text-align: center;
-    }
-    .menu a:hover {
-      background: #e8e8e8;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiLIT Zone</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f4f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #3f51b5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .menu-card {
+            background: white;
+            padding: 18px;
+            margin-bottom: 15px;
+            border-radius: 14px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+            transition: 0.2s;
+            cursor: pointer;
+        }
+        .menu-card:hover {
+            transform: scale(1.03);
+        }
+        .menu-title {
+            font-size: 18px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .menu-desc {
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 13px;
+            color: #777;
+        }
+    </style>
 </head>
+
 <body>
 
-<header>
-  DigiLITZone<br>
-  <small style="font-size: 15px;">SMP Negeri 1 Bunguran Barat</small>
-</header>
+<header>DigiLIT Zone</header>
 
 <div class="container">
-  <div class="menu">
 
-    <a href="#">📘 Modul Ajar</a>
-    <a href="#">📝 Tugas & Kuis</a>
-    <a href="#">📊 Progres Belajar</a>
-    <a href="#">🎨 Galeri Karya Siswa</a>
+    <div class="menu-card">
+        <div class="menu-title">📘 Modul Ajar</div>
+        <div class="menu-desc">Materi pembelajaran lengkap untuk seluruh siswa.</div>
+    </div>
 
-    <!-- ====== Tambahan Baru ===== -->
-    <a href="#">💬 Ruang Informasi & Diskusi</a>
-    <!-- =========================== -->
+    <div class="menu-card">
+        <div class="menu-title">📝 Tugas & Kuis</div>
+        <div class="menu-desc">Kerjakan tugas dan kuis langsung dari LMS.</div>
+    </div>
 
-    <a href="#">🧪 Ujian Online</a>
+    <div class="menu-card">
+        <div class="menu-title">📊 Progres Belajar</div>
+        <div class="menu-desc">Pantau perkembangan belajar setiap hari.</div>
+    </div>
 
-  </div>
+    <div class="menu-card">
+        <div class="menu-title">🎨 Galeri Karya Siswa</div>
+        <div class="menu-desc">Dokumentasi hasil karya terbaik siswa.</div>
+    </div>
+
+    <div class="menu-card">
+        <div class="menu-title">💬 Ruang Informasi & Diskusi</div>
+        <div class="menu-desc">Berbagi info penting dan tempat berdiskusi antar siswa.</div>
+    </div>
+
+    <div class="menu-card">
+        <div class="menu-title">🧪 Ujian Online</div>
+        <div class="menu-desc">Akses ujian online sesuai jadwal sekolah.</div>
+    </div>
+
 </div>
+
+<footer>
+    DigiLIT Zone © 2025 — SMP Negeri 1 Bunguran Barat
+</footer>
 
 </body>
 </html>
