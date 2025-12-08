@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DigiLIT Zone - LMS</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #E0E0E0;
+  }
+  .logo {text-align:center; margin-bottom:10px;}
+  .welcome {text-align:center; color:#C49A3A; font-weight:bold; margin:5px 0 10px 0; letter-spacing:0.3px;}
+  .sub-welcome {text-align:center; font-size:13px; color:#666; margin-top:-6px;}
+  hr {margin:20px 0; border:0; border-top:1px solid #E0E0E0;}
+  .menu-title {font-size:14.5px; margin-bottom:10px; color:#444;}
+  .menu {display:flex; flex-direction:column; gap:12px;}
+  .menu a {text-decoration:none;}
+  .menu-item {
+    background:#FAFAFA; padding:13px; border-radius:10px; border:1px solid #CFCFCF;
+    text-align:center; font-size:14px; font-weight:bold; color:#444;
+    display:flex; align-items:center; justify-content:center; gap:6px;
+  }
+  .menu-item:hover {background:#f0f0f0; cursor:pointer;}
+  .footer {margin-top:25px; text-align:center; font-size:12px; color:#777;}
+  @media (max-width:480px) {
+    .container {margin:10px; padding:15px;}
+    .menu-item {font-size:13px; padding:10px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Logo Minimalis -->
+  <div class="logo">
+    <svg width="55" height="55" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="90" fill="#ffffff" stroke="#BDBDBD" stroke-width="5"/>
+      <path d="M65 90 L100 75 L135 90 L135 125 L100 140 L65 125 Z" fill="#f5f5f5" stroke="#9E9E9E" stroke-width="2"/>
+      <rect x="88" y="95" width="25" height="25" fill="#F4511E" rx="5"/>
+      <circle cx="100" cy="107" r="5" fill="#fff"/>
+      <text x="60" y="115" font-size="24" fill="#C49A3A" font-weight="bold">{</text>
+      <text x="130" y="115" font-size="24" fill="#C49A3A" font-weight="bold">}</text>
+    </svg>
+  </div>
+
+  <h2 class="welcome">Selamat Datang di DigiLIT Zone</h2>
+  <p class="sub-welcome">Ruang belajar Bahasa Indonesia, TIK, dan Coding<br>SMP Negeri 1 Bunguran Barat</p>
+
+  <hr>
+
+  <h3 class="menu-title">🧭 Navigasi Utama</h3>
+  <div class="menu">
+    <a href="https://sites.google.com/view/bahasa-indonesia-smpn1bb/modul-ajar" target="_blank">
+      <div class="menu-item">📘 Modul Ajar</div>
+    </a>
+    <a href="https://sites.google.com/view/bahasa-indonesia-smpn1bb/pilih-kelas" target="_blank">
+      <div class="menu-item">📝 Tugas & Kuis</div>
+    </a>
+    <a href="#" target="_blank">
+      <div class="menu-item">📊 Progres Belajar</div>
+    </a>
+    <a href="#" target="_blank">
+      <div class="menu-item">🏆 Galeri Karya Siswa</div>
+    </a>
+    <a href="#" target="_blank">
+      <div class="menu-item">🧪 Ujian Online</div>
+    </a>
+  </div>
+
+  <p class="footer">DigiLIT Zone © Juliarto</p>
+
+</div>
+
+</body>
+</html>
