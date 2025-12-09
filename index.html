@@ -1,71 +1,24 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigiLIT Zone</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f2f4f7;
-            margin: 0;
-            padding: 0;
-
-            /* Anti seleksi teks & highlight */
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        header {
-            background: #3f51b5;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 22px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-        .container {
-            padding: 20px;
-            max-width: 500px;
-            margin: auto;
-        }
-        .menu-card {
-            background: white;
-            padding: 18px;
-            margin-bottom: 15px;
-            border-radius: 14px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-            transition: 0.2s;
-            cursor: pointer;
-        }
-        .menu-card:hover {
-            transform: scale(1.03);
-        }
-        .menu-title {
-            font-size: 18px;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .menu-desc {
-            font-size: 14px;
-            color: #555;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            font-size: 13px;
-            color: #777;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DigiLIT Zone - Beranda</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f2f4f7; margin:0; padding:0; }
+header { background:#3f51b5; color:white; text-align:center; padding:20px; font-size:22px; font-weight:bold; }
+.container { padding:20px; max-width:500px; margin:auto; }
+.menu-card { 
+    background:white; padding:18px; margin-bottom:15px; border-radius:14px; 
+    box-shadow:0 4px 8px rgba(0,0,0,0.08); transition:0.2s; cursor:pointer; 
+    text-decoration:none; color:#444; display:block;
+}
+.menu-card:hover { transform:scale(1.03); box-shadow:0 6px 12px rgba(0,0,0,0.12); }
+.menu-title { font-size:18px; font-weight:bold; margin-bottom:5px; }
+.menu-desc { font-size:14px; color:#555; }
+footer { text-align:center; margin-top:40px; padding:20px; font-size:13px; color:rgba(0,0,0,0.5); }
+</style>
 </head>
-
 <body>
 
 <header>DigiLIT Zone</header>
@@ -74,37 +27,35 @@
 </p>
 
 <div class="container">
-
-    <div class="menu-card">
+    <a href="modul.html" class="menu-card">
         <div class="menu-title">📘 Modul Ajar</div>
-        <div class="menu-desc">Bahasa Indonesia • TIK • Coding.</div>
-    </div>
+        <div class="menu-desc">Pelajari Bahasa Indonesia, TIK, dan Coding untuk semua kelas.</div>
+    </a>
 
-    <div class="menu-card">
+    <a href="tugas.html" class="menu-card">
         <div class="menu-title">📝 Tugas & Kuis</div>
-        <div class="menu-desc">Kerjakan tugas dan kuis langsung dari LMS.</div>
-    </div>
+        <div class="menu-desc">Kerjakan tugas & kuis langsung dari LMS dengan mudah.</div>
+    </a>
 
-    <div class="menu-card">
+    <a href="progres.html" class="menu-card">
         <div class="menu-title">📊 Progres Belajar</div>
-        <div class="menu-desc">Pantau perkembangan belajar setiap hari.</div>
-    </div>
+        <div class="menu-desc">Pantau perkembangan belajar setiap hari dan catat pencapaianmu.</div>
+    </a>
 
-    <div class="menu-card">
+    <a href="galeri.html" class="menu-card">
         <div class="menu-title">🎨 Galeri Karya Siswa</div>
-        <div class="menu-desc">Dokumentasi hasil karya terbaik siswa.</div>
-    </div>
+        <div class="menu-desc">Lihat hasil karya teman-teman dan inspirasikan dirimu.</div>
+    </a>
 
-    <div class="menu-card">
+    <a href="diskusi.html" class="menu-card">
         <div class="menu-title">💬 Ruang Informasi & Diskusi</div>
-        <div class="menu-desc">Berbagi info penting dan tempat berdiskusi antar siswa.</div>
-    </div>
+        <div class="menu-desc">Tempat berbagi info penting dan berdiskusi antar siswa.</div>
+    </a>
 
-    <div class="menu-card">
+    <a href="ujian.html" class="menu-card">
         <div class="menu-title">🧪 Ujian Online</div>
-        <div class="menu-desc">Akses ujian online sesuai jadwal sekolah.</div>
-    </div>
-
+        <div class="menu-desc">Akses ujian online sesuai jadwal sekolah dengan aman.</div>
+    </a>
 </div>
 
 <footer>
